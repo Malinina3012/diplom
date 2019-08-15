@@ -622,7 +622,7 @@ body {
   }
   
   .app_store_text, .google_play_text {
-    padding-left: 20px;    
+    margin-left: 20px;    
   }
   
   .article, .title {
