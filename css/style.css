@@ -138,8 +138,7 @@ body {
 }
 
 .box::after {
-  content: "";
-  p osition: absolute;
+  content: "";  
   display: block;
   background-color: #5e42b0;
   border-radius: 25px;  
@@ -157,6 +156,14 @@ body {
 .article:nth-child(5) {
   background-color: #5e42b0;
  }
+
+.players .article:nth-child(5) {
+  background-color: #090c35;
+ }
+
+.players .article:nth-child(5) .box {
+  color: #503c8e
+}
 
 .article:nth-child(5) p {
   color: #ffffff;
@@ -304,9 +311,13 @@ body {
     padding-top: 2.4rem;
     }
   
+  .wrapper {
+    padding-bottom: 2.3rem;
+  }
+  
   .subtitle {
     font-size: 2.3rem;
-    padding-bottom: 2.3rem;
+    
   }
   
   .super-title {
@@ -316,11 +327,15 @@ body {
   .text {
     font-size: 1.5rem;
     line-height: 1.8rem;
-  }  
+  } 
+  
+  .title {
+    padding-left: 20px;    
+  }
    
   .article {    
-    padding: 58px 20px 53px 20px
-    }
+    padding: 58px 20px 53px 20px;    
+  }
   
   .athlet, .player {
     display: flex;
@@ -477,9 +492,13 @@ body {
     padding-top: 8.6rem;
     }
   
+  .wrapper {
+    padding-bottom: 3.2rem;
+  }
+  
   .subtitle {
     font-size: 3.2rem;
-    padding-bottom: 3.2rem;
+    
     
   }
   
@@ -646,13 +665,16 @@ body {
       
     }
     
-    .athlets {
+    .athlets, .players {
      padding-top: 8.2rem; 
+    }
+  
+    .wrapper {
+      padding-bottom: 3.3rem;
     }
     
     .subtitle {
-      font-size: 3.6rem;
-      padding-bottom: 3.3rem;
+      font-size: 3.6rem;      
     }
     
     .text {
